@@ -12,3 +12,4 @@ passlib==1.7.1
 Werkzeug==0.15.2
 WTForms==2.2.1
 gunicorn
+Mapping
