@@ -8,7 +8,10 @@ import timeit
 import datetime
 from flask_mail import Mail, Message
 import os
-from wtforms.fields.html5 import EmailField
+from wtforms import EmailField
+
+
+
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
@@ -950,3 +953,4 @@ def developer():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    app.run(host='0.0.0.0', port='5000')
